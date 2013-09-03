@@ -20,7 +20,11 @@
         Enable individual API permissions here.
         The "device" permission is required for the 'deviceready' event.
     -->
-    <feature name="http://api.phonegap.com/1.0/device" />
+<!--   <feature name="http://api.phonegap.com/1.0/device" /> -->
+    <feature name="Device" value="org.apache.cordova.core.Device"/>
+    <feature name="Accelerometer" value="org.apache.cordova.core.AccelListener" />
+    <feature name="Compass" value="org.apache.cordova.core.CompassListener" />
+
 
     <!--
         If you do not want any permissions to be added to your app, add the
